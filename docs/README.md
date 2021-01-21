@@ -1,1 +1,0 @@
-My portfolio is created from [Dev Portfolio](https://github.com/RyanFitzgerald/devfolio).
