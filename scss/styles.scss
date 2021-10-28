@@ -94,6 +94,62 @@ body {
     }
 }
 
+// .wrapper{
+//     display: flex;
+//     .static-txt{
+//         color: #fff;
+//         font-size: 60px;
+//         font-weight: 400;
+//     }
+//     .dynamic-txts{
+//         margin-left: 15px;
+//         height: 90px;
+//         line-height: 90px;
+//         overflow: hidden;
+//     }
+// }
+
+// .dynamic-txts {
+//     li{
+//         list-style: none;
+//         color: #fff;
+//         font-size: 60px;
+//         font-weight: 500;
+//         position: relative;
+//         top: 0;
+//         animation: slide 12s steps(4) infinite;
+//         span {
+//             position: relative;
+//             margin: 5px 0;
+//             line-height: 80px;
+//         }
+//         span::after {
+//             content: "";
+//             position: absolute;
+//             left: 0;
+//             height: 200%;
+//             width: 100%;
+//             background: #1d689b;
+//             border-left: 4px solid #fff;
+//             animation: typing 3s steps(10) infinite;
+//         }
+//     }
+// }
+
+// @keyframes slide {
+//     100%{
+//         top: -360px;
+//     }
+// }
+// @keyframes typing {
+//     40%, 60%{
+//         left: calc(100% + 30px);
+//     }
+//     100%{
+//         left: 0;
+//     }
+// }
+
 // No JS styles
 .no-js {
     #experience-timeline {
@@ -999,3 +1055,4 @@ footer {
     }
 
 }
+
